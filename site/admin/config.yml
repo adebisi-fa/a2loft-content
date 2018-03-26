@@ -74,12 +74,15 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Content
             name: content
             widget: markdown
+            required: false
           - label: Image
             name: image
             widget: image
+            required: false
       - label: "Sort Code"
         name: sortCode
         widget: number
@@ -98,12 +101,15 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Content
             name: content
             widget: markdown
+            required: false
           - label: Image
             name: image
             widget: image
+            required: false
       - label: "Sort Code"
         name: sortCode
         widget: number
