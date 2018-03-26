@@ -2,6 +2,10 @@ var fs = require('fs');
 var path = require('path');
 
 var rs = {};
+
+if (!fs.existsSync(path.resolve('./site/api/aot/pages')))
+    fs.mkdirSync(path.resolve('./site/api/aot/pages'));
+    
 fs.readdirSync(path.resolve('./site/aot/pages')).forEach(collection => {
     var entries = fs.readdirSync(
         path.resolve(`./site/aot/pages/${collection}`)
@@ -12,6 +16,7 @@ fs.readdirSync(path.resolve('./site/aot/pages')).forEach(collection => {
         eObj[e] = JSON.parse(fs.readFileSync(path.resolve(`./site/aot/pages/${collection}/${e}`), 'utf8'));
         rs[collection].push(eObj);
     });
+    
     fs.writeFileSync(path.resolve(`./site/api/aot/pages/${collection}.json`), JSON.stringify(rs[collection], null, 2));
 });
 
