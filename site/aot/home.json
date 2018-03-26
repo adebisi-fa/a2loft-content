@@ -1,1 +1,27 @@
-{}
+{
+  "name": "A2L of Things",
+  "description": "A2L of Things (A2L's \"Internet of Things\" - A2L's IoT) is a cyber-kiosk of Technology for Human Development (TechHD) software driven services (Software-as-a-Service) accessible using a single, unique User IDentity (UID).",
+  "projects": [
+    {
+      "title": "e911",
+      "content": "e911 is a cutting-edge **emergency communications, notifications and response management **software technology. The system is designed to streamline emergency communication by integrating the numerous emergency phone numbers, of the various **Emergency Service Providers (ESP) to a Single Communication Access Point (SCAP)** which affords the public a simple, single, smart communication window",
+      "image": "/assets/images/uploads/e911.jpg",
+      "detailsLink": "/pages/projects/e911/about"
+    },
+    {
+      "title": "ClinyX GynoSMART",
+      "content": "GynoSMART is an Artificial Intelligence (AI) driven, mobile-first, online-offline service designed to advance the whole-person development (health, economic and social), and rights of women and children.",
+      "image": "/assets/images/uploads/gyno-logo-square-googleplay_scaled.png",
+      "detailsLink": "/pages/projects/gynosmart/about"
+    }
+  ],
+  "homeSpread": [
+    {
+      "image": "/assets/images/uploads/aot-home-spread-1.png"
+    },
+    {
+      "image": "/assets/images/uploads/aot-home-spread-2.png"
+    }
+  ],
+  "smallImage": "/assets/images/uploads/e911.jpg"
+}
