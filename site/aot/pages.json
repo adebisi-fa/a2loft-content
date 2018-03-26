@@ -1,1 +1,24 @@
-{}
+{
+  "e911Pages": [
+    {
+      "page": "/projects/e911/about"
+    },
+    {
+      "page": "/projects/e911/why"
+    },
+    {
+      "page": "/projects/e911/protocols"
+    },
+    {
+      "page": "/projects/e911/objectives"
+    },
+    {
+      "page": "/projects/e911/channels"
+    }
+  ],
+  "gsPages": [
+    {
+      "page": "/projects/clinyx/gs/about"
+    }
+  ]
+}
