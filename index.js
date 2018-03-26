@@ -1,10 +1,10 @@
 var fs = require('fs');
 var path = require('path');
-
+var mkdirp = require('mkdirp');
 var rs = {};
 
 if (!fs.existsSync(path.resolve('./site/api/aot/pages')))
-    fs.mkdirSync(path.resolve('./site/api/aot/pages'));
+    mkdirp.sync(path.resolve('./site/api/aot/pages'));
     
 fs.readdirSync(path.resolve('./site/aot/pages')).forEach(collection => {
     var entries = fs.readdirSync(
