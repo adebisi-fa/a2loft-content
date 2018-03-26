@@ -24,7 +24,7 @@ collections:
     files:
       - name: "aot-home"
         label: "AOT of Things Home"
-        files: "site/aot/home.json"
+        file: "site/aot/home.json"
         fields:
           - label: Name
             name: name
