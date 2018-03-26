@@ -117,6 +117,7 @@ collections:
     name: aot-gs-page
     folder: "site/aot/pages/gs"
     create: true
+    format: json
     fields:
       - label: Slug
         name: slug
