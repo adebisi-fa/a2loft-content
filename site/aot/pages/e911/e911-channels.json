@@ -1,0 +1,19 @@
+{
+  "title": "e911 Channels",
+  "sections": [
+    {
+      "title": "Accessing e911 Service",
+      "content": "e911 is a **mobile-First service** - i.e. designed to be fully accessible using the **mobile phone **among other personal electronic devices. It uses **USSD commands **and **Simple Menu **to enable structured, intelligent communications within the network, through various ONLINE-OFFLINE Information and Communication channels."
+    },
+    {
+      "title": "Offline Channels",
+      "content": "1.  Short Messaging Service (SMS)  \r\n\r\n2.  USSD and SIM ToolKit _(opening soon)_"
+    },
+    {
+      "title": "Online Channels",
+      "content": "1.  **Instant Messenger** (Telegram, facebook, skype, Kik)  \r\n\r\n2.  Web and App _(opening soon)_",
+      "image": "/assets/images/uploads/e911.jpg"
+    }
+  ],
+  "sortCode": "50"
+}
