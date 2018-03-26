@@ -1,0 +1,18 @@
+{
+  "title": "e911 User Protocols",
+  "sections": [
+    {
+      "title": "How to access the User Guide",
+      "content": "1.  Via SMS: Text *911# to 08071777770  \r\n\r\n2.  Via Telegram: Send ***911#** to **[@A2LofTBot](http://t.me/a2loftbot)**"
+    },
+    {
+      "title": "How to send a Report to e911",
+      "content": "To report an incidence or make a complaint to e911 the public can use any of the available channels (Currently **Telegram **and **SMS **channels are available)\r\n\r\n**WITHOUT ADDING A COMMENT**\r\n\r\n*911*<ReportCode>*<StreetNumberOrName>*<LGA>*<StateCode>#\r\n\r\n**WITH A COMMENT**\r\n\r\n*911*<ReportCode>*<StreetNumberOrName>*<LGA>*<StateCode>*<Comment>#\r\n\r\n**REPORTING ANONYMOUSLY (WITHOUT COMMENT)**\r\n\r\n*911*0*<ReportCode>*<StreetNumberOrName>*<LGA>*<StateCode>#\r\n\r\n**REPORTING ANONYMOUSLY (WITH COMMENT)**\r\n\r\n*911*0*<ReportCode>*<StreetNumberOrName>*<LGA>*<StateCode>*<Comment>#\r\n\r\nOffline report can be done via SMS. The relevant USSD message should be sent (as SMS) to the e911 number 08071777770\r\n\r\nOnline report can be done via the **Instant Messenger (telegram)** available in Android, Apple and Windows stores. Search for **a2loft** on after downloading Telegram Messenger and post the relevant USSD message found above."
+    },
+    {
+      "title": "Subscribing to e911 Notifications",
+      "content": "**SMS: ** \\*911\\*sub\\*<StateCode>#</code> . . . . TO **08071777770 **(OFFLINE)\r\n\r\n**Telegram:** \\*911\\*sub\\*<StateCode># . . . . TO **@A2LofTBot**\r\n\r\nSMS subscribers will ONLY get **Level 1 Notifications**. (e.g. public service notifications)\r\n\r\nSubscribers to **e911 Notifications **service are assigned a **Basic Profile **which they update to a **Standard Profile **by adding more details their profile. Besides receiving vital public notices and emergency preparedness tips, subscribers to e911 Notifications can participate in Citizens Evaluation of e911 services (user-rating), create InstantReport files, among other privileges.\r\n\r\n**StateCode **is the first two characters of the state you are reporting from which the exception of KD->Kaduna, KN->Kano, KT->Katsina, BY->Bayelsa, and FC->Abuja Federal Capital Territory."
+    }
+  ],
+  "sortCode": "60"
+}
