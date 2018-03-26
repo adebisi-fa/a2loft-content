@@ -22,6 +22,30 @@ collections:
   - label: "AOT Pages"
     name: aot-pages
     files:
+      - name: "aot-content-pages"
+        label: "AOT Content Pages"
+        file: "site/aot/pages.json"
+        fields:
+          - label: "e911 Pages"
+            name: e911Pages
+            widget: list
+            fields:
+              - label: Page
+                name: page
+                widget: relation
+                collection: 'aot-e911-page'
+                searchFields:  ['slug', 'title']
+                valueField: slug
+          - label: "GynoSMART Pages"
+            name: gsPages
+            widget: list
+            fields:
+              - label: Page
+                name: page
+                widget: relation
+                collection: 'aot-gs-page'
+                searchFields:  ['slug', 'title']
+                valueField: slug
       - name: "aot-home"
         label: "AOT of Things Home"
         file: "site/aot/home.json"
@@ -64,6 +88,9 @@ collections:
     format: json
     create: true
     fields:
+      - label: Slug
+        name: slug
+        widget: string
       - label: Title
         name: title
         widget: string
@@ -86,11 +113,14 @@ collections:
       - label: "Sort Code"
         name: sortCode
         widget: number
-  - name: aot-gs-page
-    label: "AOT GynoSMART Page"
+  - label: "AOT GynoSMART Page"
+    name: aot-gs-page
     folder: "site/aot/pages/gs"
     create: true
     fields:
+      - label: Slug
+        name: slug
+        widget: string
       - label: Title
         name: title
         widget: string
