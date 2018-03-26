@@ -19,45 +19,49 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "aot-home"
-    label: "AOT of Things Home"
-    file: "site/aot/home.json"
-    fields:
-      - label: Name
-        name: name
-        widget: string
-      - label: Description
-        name: description
-        widget: markdown
-      - label: Projects
-        name: projects
-        widget: list
-        fields: 
-          - label: Title
-            name: title 
-            widget: string
-          - label: Content
-            name: content
-            widget: markdown
-          - label: Image
-            name: image
-            widget: image
-          - label: "Details Link"
-            name: detailsLink
-            widget: string
-      - label: "Home Spread"
-        name: homeSpread
-        widget: list
+  - label: "AOT Pages"
+    name: aot-pages
+    files:
+      - name: "aot-home"
+        label: "AOT of Things Home"
+        files: "site/aot/home.json"
         fields:
-          - label: Image
-            name: image
+          - label: Name
+            name: name
+            widget: string
+          - label: Description
+            name: description
+            widget: markdown
+          - label: Projects
+            name: projects
+            widget: list
+            fields: 
+              - label: Title
+                name: title 
+                widget: string
+              - label: Content
+                name: content
+                widget: markdown
+              - label: Image
+                name: image
+                widget: image
+              - label: "Details Link"
+                name: detailsLink
+                widget: string
+          - label: "Home Spread"
+            name: homeSpread
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                widget: image
+          - label: "Small Image"
+            name: smallImage
             widget: image
-      - label: "Small Image"
-        name: smallImage
-        widget: image
-  - name: aot-e911-page
-    label: "AOT e911 Page"
+  - label: "AOT e911 Page"
+    name: aot-e911-page
     folder: "site/aot/pages/e911"
+    format: json
     create: true
     fields:
       - label: Title
