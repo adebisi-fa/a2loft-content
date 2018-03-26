@@ -1,12 +1,19 @@
-<script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
+<html>
+  <head>
+    <title>A2L of Things Contents</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; font-family: 'Segoe UI'; padding: 70px; border: 1px solid gainsboro;">A2L of Things Contents</h1>
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
           });
         }
-      });
-    }
-  </script>
-<h1>A2L of Things Contents</h1>
+      </script>
+  </body>
+</html>
