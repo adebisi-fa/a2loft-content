@@ -15,5 +15,19 @@
       "content": "USSD Commands are the only tools available to access the limited yet crucial bits of GynoSMART service via SMS.\n<br/><br/>\n**/Registration**  \n**\\*gs\\*reg\\*Surname\\*OtherNames**#\n\n<br/><br/>\n**/ClockIN** (Calculate menstruation and ovulation dates with data saved to users profile)\n\n**\\*gs\\*clock\\*LMP\\*Cycle#** (if Menstrual Cycle is known) NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.\n\nOR\n\n**\\*gs\\*clock*LMP#** (If Menstrual Cycle is not known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.  \n\n<br/><br/>\n/GynoCalc (Calculate menstruation and ovulation dates only. Data will not be logged to a profile)\n\n**\\*gs\\*calc\\*LMP\\*Cycle#** (If Menstrual Cycle is known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.\n\n**\\*gs\\*calc*LMP#** (If Menstrual Cycle is not known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy."
     }
   ],
-  "sortCode": "70"
+  "sortCode": "70",
+  "relatedLinks": [
+    {
+      "caption": "About GynoSMART",
+      "link": "/pages/projects/clinyx/gs/about"
+    },
+    {
+      "caption": "Why GynoSMART?",
+      "link": "/pages/projects/clinyx/gs/why"
+    },
+    {
+      "caption": "A2L of Things Emergency Service (e911)?",
+      "link": "/pages/projects/e911/about"
+    }
+  ]
 }

@@ -20,7 +20,7 @@
   "sortCode": "40",
   "relatedLinks": [
     {
-      "caption": "Checkout e911 USSD Protocols",
+      "caption": "e911 USSD Protocols",
       "link": "/pages/projects/e911/protocols"
     },
     {
@@ -36,8 +36,8 @@
       "link": "/pages/projects/e911/about"
     },
     {
-      "caption": "Why e911?",
-      "link": "/pages/projects/e911/why"
+      "caption": "A2L of Things Women Wellness Health Services (ClinyX GynoSMART)?",
+      "link": "/pages/projects/clinyx/gs/about"
     }
   ]
 }

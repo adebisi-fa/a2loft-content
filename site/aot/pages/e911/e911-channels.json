@@ -16,5 +16,27 @@
       "image": "/assets/images/uploads/e911.jpg"
     }
   ],
-  "sortCode": "50"
+  "sortCode": "50",
+  "relatedLinks": [
+    {
+      "caption": "e911 USSD Protocols",
+      "link": "/pages/projects/e911/protocols"
+    },
+    {
+      "caption": "e911 Objectives",
+      "link": "/pages/projects/e911/objectives"
+    },
+    {
+      "caption": "About e911",
+      "link": "/pages/projects/e911/about"
+    },
+    {
+      "caption": "Why e911?",
+      "link": "/pages/projects/e911/why"
+    },
+    {
+      "caption": "A2L of Things Women Wellness Health Services (ClinyX GynoSMART)?",
+      "link": "/pages/projects/clinyx/gs/about"
+    }
+  ]
 }

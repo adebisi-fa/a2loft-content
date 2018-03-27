@@ -7,5 +7,19 @@
       "content": "There are various electronic menstruation and ovulation Apps available in various App-stores. What then make GynoSMART standout? \r\n\n**Offline Push Notifications (SMS)\r**\n\nGynoSMART is designed for use in resource limited countries. It is thus designed to be accessible via multiple offline channels – SMS, Telecom USSD and SIM ToolKit using simple USSD commands. \r\n\n\rThe service also sends auto reminders (push notification) 2 days and a day to the predicted ovulation and menstruation."
     }
   ],
-  "sortCode": "60"
+  "sortCode": "60",
+  "relatedLinks": [
+    {
+      "caption": "GynoSMART Protocols",
+      "link": "/pages/projects/clinyx/gs/protocols"
+    },
+    {
+      "caption": "About GynoSMART",
+      "link": "/pages/projects/clinyx/gs/about"
+    },
+    {
+      "caption": "A2L of Things Emergency Service (e911)?",
+      "link": "/pages/projects/e911/about"
+    }
+  ]
 }
