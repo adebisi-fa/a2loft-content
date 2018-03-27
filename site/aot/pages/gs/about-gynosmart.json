@@ -2,7 +2,14 @@
   "slug": "/projects/clinyx/gs/about",
   "title": "About GynoSmart",
   "sections": [
-    { "content": "About gynosmart goes here." }
+    {
+      "title": "About GynoSMART",
+      "content": "**GynoSMART** is an Artificial Intelligence (AI) driven, mobile-first, online-offline service designed to advance the whole-person development (health, economic and social), and rights of women and children. \r"
+    },
+    {
+      "title": "Features of GynoSMART ",
+      "content": "1. Menstruation-Ovulation Tracker and reminder\r\n\r\n2. Fertility care service  \r\n\r\n3. Pregnancy care service and the Under 5 years healthcare service (eRoad2Health) \r\n\r\n4. WellWoman services—i.e. Water-Diet tracker, Gynocise (an exercise manager), reWeight (a weight control manager)\r\n\r\n5. eHealth kiosk—that offer services including, though not limited to, bot-driven public health information, emergency management service for women (e911Gyno), Rescue-brief, eConsult - a clinically governed online clinic that is connected to over 8000 medical practitioners.\r\n\r\n6. GynoMART—a simple as smart eCommerce service for itinerant, small and medium scale businesses.\r\n\r\n7. GynoMedia (General news and information service), \r\n\r\n8. GynoCause - a service designed to drive various community-centered, socio-economic projects that advance the rights and whole-person wellbeing of women and children. "
+    }
   ],
   "sortCode": "10"
 }
