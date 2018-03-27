@@ -89,6 +89,17 @@ collections:
       - label: "Sort Code"
         name: sortCode
         widget: number
+      - label: "Related Links"
+        name: relatedLinks
+        widget: list
+        fields:
+          - label: Caption
+            name: caption
+            widget: string
+          - label: Link
+            name: link
+            widget: string
+        required: false
   - label: "AOT GynoSMART Page"
     name: aot-gs-page
     folder: "site/aot/pages/gs"
@@ -120,3 +131,14 @@ collections:
       - label: "Sort Code"
         name: sortCode
         widget: number
+      - label: "Related Links"
+        name: relatedLinks
+        widget: list
+        fields:
+          - label: Caption
+            name: caption
+            widget: string
+          - label: Link
+            name: link
+            widget: string
+        required: false
