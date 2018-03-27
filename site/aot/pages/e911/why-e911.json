@@ -34,6 +34,10 @@
     {
       "caption": "About e911",
       "link": "/pages/projects/e911/about"
+    },
+    {
+      "caption": "Why e911?",
+      "link": "/pages/projects/e911/why"
     }
   ]
 }
