@@ -1,0 +1,19 @@
+{
+  "slug": "/projects/clinyx/gs/protocols",
+  "title": "GynoSMART Protocols",
+  "sections": [
+    {
+      "title": "Accessing GynoSMART Services",
+      "content": "GynoSMART services can be accessed both online and offline \n\n**1. Offline access: **\n\nSMS, Telecom USSD and SIM ToolKits, \n\n**2. Online access: **\n\n* GynoSMART Bot on Telegram Messenger (download telegram messenger on IOS (Apple), Android (Google) and Windows App-stores, search for @gynosmart, click on start; \n* GynoSMART App (available in the Android/Google App-store, coming soon to other App-stores);"
+    },
+    {
+      "title": "ONLINE: Accessing GynoSMART Service on TELEGRAM (USSD COMMAND)",
+      "content": "**/Register**  \n**\\*gs\\*reg\\*PhoneNo\\*Surname*OtherNames#  **\n\n<br/><br/>\n**/ClockIN **(Calculate menstruation and ovulation dates with data saved to users profile)  \n\n**\\*gs\\*clock\\*PhoneNo\\*LMP*Cycle#** (if Menstrual Cycle is known) \nNOTE LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy, e.g. Enter 01101960 for October 1, 1960.  \n\nOR  \n\n**\\*gs\\*clock\\*PhoneNo\\*LMP#** (If Menstrual Cycle is not known). \nNOTE LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.  \n\n<br/><br/>\n**/GynoCalc **(Calculate menstruation and ovulation dates only. Data will not be logged to a profile)  \n\n**\\*gs\\*calc\\*LMP\\*Cycle# **(If Menstrual Cycle is known).  \nNOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.  \n\n**\\*gs\\*calc*LMP# (**If Menstrual Cycle is not known).  \nNOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.  \n\n<br/><br/>\n**/Close** - my GynoSMART account:  \n**\\*gs\\*close*PhoneNo#  **\n\n<br/><br/>\n**/Link **- my GynoSMART profile to a Telegram account (Personal or third party)  \n**\\*gs\\*link*PhoneNo#**"
+    },
+    {
+      "title": "OFFLINE: Accessing GynoSMART Service via SMS",
+      "content": "USSD Commands are the only tools available to access the limited yet crucial bits of GynoSMART service via SMS.\n<br/><br/>\n**/Registration**  \n**\\*gs\\*reg\\*Surname\\*OtherNames**#\n\n<br/><br/>\n**/ClockIN** (Calculate menstruation and ovulation dates with data saved to users profile)\n\n**\\*gs\\*clock\\*LMP\\*Cycle#** (if Menstrual Cycle is known) NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.\n\nOR\n\n**\\*gs\\*clock*LMP#** (If Menstrual Cycle is not known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.  \n\n<br/><br/>\n/GynoCalc (Calculate menstruation and ovulation dates only. Data will not be logged to a profile)\n\n**\\*gs\\*calc\\*LMP\\*Cycle#** (If Menstrual Cycle is known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy.\n\n**\\*gs\\*calc*LMP#** (If Menstrual Cycle is not known). NOTE: LMP i.e. date of Last Menstrual Cycle should be entered as ddMMyyyy."
+    }
+  ],
+  "sortCode": "70"
+}
