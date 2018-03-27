@@ -17,5 +17,23 @@
       "image": "/assets/images/uploads/statement-of-problem.jpg"
     }
   ],
-  "sortCode": "40"
+  "sortCode": "40",
+  "relatedLinks": [
+    {
+      "caption": "Checkout e911 USSD Protocols",
+      "link": "/pages/projects/e911/protocols"
+    },
+    {
+      "caption": "e911 Objectives",
+      "link": "/pages/projects/e911/objectives"
+    },
+    {
+      "caption": "Available Channels",
+      "link": "/pages/projects/e911/channels"
+    },
+    {
+      "caption": "About e911",
+      "link": "/pages/projects/e911/about"
+    }
+  ]
 }
