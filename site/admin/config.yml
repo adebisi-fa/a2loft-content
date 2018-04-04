@@ -142,3 +142,26 @@ collections:
             name: link
             widget: string
         required: false
+  - label: "Age Based Health Notification"
+    name: clx-abh-info
+    folder: "site/notifications/clx-abh"
+    create: true
+    format: json
+    fields:
+      - label: Age
+        widget: number
+        name: age
+      - label: "Age's Unit"
+        widget: select
+        name: ageUnit
+        options: ['Months', 'Years']
+      - label: Domain
+        widget: select
+        name: domain
+        options: ['Child Health', 'Maternal', 'General Preventive Health', 'Environmental Health', 'Infectious Disease', 'Health Screening']
+      - label: Content
+        widget: markdown
+        name: content
+      - label: Image
+        widget: image,
+        name: image
