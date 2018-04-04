@@ -105,6 +105,7 @@ collections:
     folder: "site/aot/pages/gs"
     create: true
     format: json
+    slug: "{{slug}}_{{day}}_{{month}}_{{year}}"
     fields:
       - label: Slug
         name: slug
@@ -163,5 +164,10 @@ collections:
         widget: markdown
         name: content
       - label: Image
-        widget: image,
+        widget: image
         name: image
+        required: false
+      - label: Title
+        widget: string
+        name: title
+        required: false
