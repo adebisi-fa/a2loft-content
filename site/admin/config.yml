@@ -148,6 +148,7 @@ collections:
     folder: "site/notifications/clx-abh"
     create: true
     format: json
+    slug: '{{day}}_{{month}}_{{year}}_{{hour}}{{minute}}{{second}}'
     fields:
       - label: Age
         widget: number
@@ -171,3 +172,4 @@ collections:
         widget: string
         name: title
         required: false
+        default: 'just-ignore'
