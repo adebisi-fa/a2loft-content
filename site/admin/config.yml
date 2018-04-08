@@ -173,3 +173,31 @@ collections:
         name: title
         required: false
         default: 'just-ignore'
+  - label: "Node ACL Policy"
+    name: node-acl-policy
+    folder: "site/policies/n-acl"
+    format: json
+    slug: '{{slug}}-{{day}}-{{month}}-{{year}}'
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Policy
+        name: policy
+        widget: list
+        fields:
+          - label: Roles
+            widget: list
+            name: roles
+          - label: Allows
+            widget: list
+            name: allows
+            fields:
+              - label: Resources
+                name: resources
+                widget: list
+              - label: Permissions
+                name: Permissions
+                widget: list
+              
